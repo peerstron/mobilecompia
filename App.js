@@ -1,15 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
+import React, { Fragment } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Test from './screens/test';
+import AppNavigator from './navigation/Navigator';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Welcome to IA Test</Text>
-      <Test />
-      <StatusBar style="auto" />
-    </View>
+    // <Fragment>
+    //   <AppNavigator />
+    // </Fragment>
+    
   );
 }
 
