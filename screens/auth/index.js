@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import { StatusBar } from "react-native";
+import Colors from '../../constants/colors.json';
 
 import { RFValue } from "react-native-responsive-fontsize";
 

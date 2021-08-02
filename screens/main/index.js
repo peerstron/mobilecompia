@@ -2,6 +2,7 @@ import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Fragment } from "react";
 import { Platform } from 'react-native'
+import Colors from '../../constants/colors.json';
 
 import { Ionicons, AntDesign } from "@expo/vector-icons";
 
