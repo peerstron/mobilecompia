@@ -1,22 +1,9 @@
-import { StatusBar } from 'expo-status-bar';
-import React, { Fragment } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import Test from './screens/test';
-import AppNavigator from './navigation/Navigator';
+import React from 'react'
 
-export default function App() {
-  return (
-    <Fragment>
-      <AppNavigator />
-    </Fragment>
-  );
+import AppNavigator from './react-navigation'
+
+export default function App(){
+  return(
+    <AppNavigator />
+  )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
